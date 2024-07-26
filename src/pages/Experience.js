@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Experience = () => {
-  return <div>we got experience through insta,  Planning to get the real experience in soon heheheeee</div>;
+  return <div>Add your experience here</div>;
 };
 
 export default Experience;
