@@ -3,6 +3,7 @@ import { Box, Flex, Link, Spacer, IconButton, useDisclosure, Text } from '@chakr
 import { Global } from '@emotion/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import Home from './pages/Home';
+import Expertise from './pages/Expertise';
 
 const App = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -172,8 +173,7 @@ const App = () => {
           <Home />
         </Box>
         <Box ref={expertiseRef} minHeight="100vh" pt="80px">
-          <h1>Expertise</h1>
-          <Home />
+          <Expertise />
         </Box>
         <Box ref={projectsRef} minHeight="100vh" pt="80px">
           <h1>Projects</h1>
