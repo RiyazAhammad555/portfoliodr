@@ -1,6 +1,7 @@
 // theme.js
 import { extendTheme } from '@chakra-ui/react';
 import { mode } from '@chakra-ui/theme-tools';
+import { BiBorderRadius } from 'react-icons/bi';
 
 const config = {
   initialColorMode: 'dark',
@@ -10,7 +11,7 @@ const config = {
 const styles = {
   global: (props) => ({
     body: {
-      bg: mode('black', 'gray.800')(props), // Fallback color
+      bg: mode('black', 'black')(props), // Fallback color
       color: mode('white', 'white')(props),
       // fontSize: 'lg',
       // backgroundImage: "url('https://www.pixelstalk.net/wp-content/uploads/2016/06/Black-And-Red-Backgrounds-1.jpg')",

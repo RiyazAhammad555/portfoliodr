@@ -159,6 +159,7 @@ const App = () => {
                   transform: 'scale(1.05)',
                   boxShadow: '0 4px 8px rgba(204, 0, 68, 0.5)',
                   color: '#cc0044',
+                  //  backgroundColor:'#cc0044'
                 },
               }}
             >
@@ -168,8 +169,9 @@ const App = () => {
         </Flex>
       </Flex>
       <Box p={4} mt="80px">
-        <Box ref={homeRef} minHeight="100vh" pt="80px">
-          <h1>Home</h1>
+        <Box ref={homeRef} minHeight="100vh" pt="80px"
+        >
+          {/* <h1>Home</h1> */}
           <Home />
         </Box>
         <Box ref={expertiseRef} minHeight="100vh" pt="80px">
